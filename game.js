@@ -39,7 +39,7 @@ function tambahPengumuman() {
 // Tambah Jadwal dengan password
 function tambahJadwal() {
   const password = prompt("Masukkan password untuk menambah jadwal:");
-  if(password !== "1234"){
+  if(password !== "1321"){
     showToast("Password salah! Tidak bisa menambah jadwal.");
     return;
   }
@@ -56,7 +56,7 @@ function tambahJadwal() {
 // Hapus item dengan password
 function hapusItem(tipe, index) {
   const password = prompt("Masukkan password untuk menghapus item:");
-  if(password !== "1234"){
+  if(password !== "1321"){
     showToast("Password salah! Anda tidak bisa menghapus.");
     return;
   }
